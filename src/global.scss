@@ -24,3 +24,36 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+ion-toolbar {
+  --background: #61774B;
+  color: #010201;
+  font-weight: bold;
+}
+ion-app {
+  max-width: 480px; 
+  margin: 0 auto;   
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+  border-radius: 12px; 
+  overflow: hidden; 
+  height: 100vh; 
+}
+ion-item {
+  font-size: 20px;       
+  padding: 16px;         
+  --min-height: 72px;    
+}
+
+ion-label {
+  font-size: 20px;       
+}
+
+ion-thumbnail img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+ion-title {color: #ffffff; /* Cambia color texto encabezado */}
+ion-item {color: #5f2424; /* Cambia color texto en el titulo de los productos */}
+ion-button {color: #000000;/* Cambia color texto de los botones de menu lateral
+*/}
